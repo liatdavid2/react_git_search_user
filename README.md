@@ -5,7 +5,7 @@
 <h3>Fully responsive app - fit to laptop, tablet, and mobile phone.</h3>
 
 Technologies:\
-Front-end : react, javascript, css ,HTML5.\
+Front-end : react, javascript, css ,HTML5.
 
 <h3>Main page - when you search for user you get users list from github api.</h3>
 <img src="https://raw.githubusercontent.com/liatdavid2/react_git_search_user/main/build/%E2%80%8F%E2%80%8Fapp.PNG?raw=true" width="950" >
