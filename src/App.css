@@ -1,0 +1,52 @@
+.rowMarginTop{
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.App{
+  background:#f7f7f7;
+}
+
+.chartsContainer{
+  background: white;
+  height: 100%; 
+  margin: 0;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.rowDirRtl{
+  direction: rtl
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+.MuiToolbar {
+    min-height: 0px;
+}
+.noPadding{
+  padding: 0;
+}
+.MuiListItemIcon-root{
+  color: #8095a8 !important;
+}
+.MuiListItem-button{
+  height: 62px;
+  margin-top: 0;
+}
+.MuiListItem-button:focus{
+  background: #2a4055 !important;
+}
+.MuiList-root.MuiList-padding{
+padding-top: 0;
+}
+.container{
+  max-width: 1600px;
+}
+@media (max-width: 1300px) {
+  .container{
+    max-width: 1300px;
+  }
+}

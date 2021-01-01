@@ -1,0 +1,22 @@
+.MuiPaginationItem-page.Mui-selected {
+    background-color: rgb(102, 130, 157)!important;
+}
+.MuiPaginationItem-root{
+    color: white!important;
+}
+.MuiInputBase-input{
+    color: white !important;
+}
+.MuiPagination-ul {
+    margin-top: 9px!important;
+}
+.MuiButton-root{
+    border-radius: 0px!important;
+    margin-left: 10px!important;
+}
+.MuiPaper-rounded {
+    border-radius: 0px!important;
+}
+h2{
+    font-weight: bold;
+}
