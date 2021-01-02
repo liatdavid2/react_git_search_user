@@ -77,11 +77,12 @@ export default function Search() {
 
   function handleClickGetUsers() {
     if (searchValue !== "") {
-      dispatch(fetchUsersFromGit(searchValue, pageNumber))
+      setTimeout(dispatch(fetchUsersFromGit(searchValue, pageNumber)), 1000);
+      console.log(users)
     }
   }
 
-  return users && users.data ? (
+  return users && users.data ?(
     <Grid container >
       <Grid item xs={12}>
         <Paper className={classes.paper}>
@@ -98,7 +99,7 @@ export default function Search() {
       <Grid item sm={4} xs={12}>
         {users.data.total_count ?
           <h2 className={classes.headline} >{users.data.total_count + ' users found'}</h2> : null}
-        <ResultMenu users={users.data.items} />
+       {users.data && users.data.items && users.data.items[0]? <ResultMenu users={users.data.items} />:null}
       </Grid>
       <Grid item sm={4} xs={0}></Grid>
       <Grid item xs={12}>

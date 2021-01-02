@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   divider:{
     borderBottom:'1px solid',
     width: '100%',
-    height:'70px'
+   margin:0
   }
 }));
 
@@ -33,7 +33,7 @@ export default function ResultMenu(props) {
       <ListItemAvatar>
         <Avatar alt="Remy Sharp" src={item.avatar_url} />
       </ListItemAvatar>
-      <ListItemText primary={item.login} secondary="Jan 9, 2014" />
+      <ListItemText primary={item.login} secondary={item.bio} />
 
     </ListItem>
     )
